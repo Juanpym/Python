@@ -1,6 +1,6 @@
 # para seguir los principios solid se crea clase operacion, para hacerla HIJA de otra (calculadora)
 class Operacion:
-    while True:
+
         def suma(self, num1, num2):
             try:
                 num1 + num2
@@ -19,5 +19,6 @@ class Operacion:
                 return num1 / num2
             else:
                 return "No es posible realizar divisioness por 0"
+
 
 print('aa')
